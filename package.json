@@ -1,0 +1,25 @@
+{
+	"name": "student-portal-service-registry",
+	"version": "1.0.0",
+	"description": "Service registry for project Student Portal",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TyagiDemon/Student-Portal-Service-Registry.git"
+	},
+	"author": "Karan Tyagi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TyagiDemon/Student-Portal-Service-Registry/issues"
+	},
+	"homepage": "https://github.com/TyagiDemon/Student-Portal-Service-Registry#readme",
+	"dependencies": {
+		"bunyan": "^1.8.15",
+		"cors": "^2.8.5",
+		"express": "^4.18.1",
+		"semver": "^7.3.7"
+	}
+}
