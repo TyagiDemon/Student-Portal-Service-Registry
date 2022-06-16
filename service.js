@@ -27,7 +27,8 @@ module.exports = (config) => {
 				servicename,
 				serviceversion,
 				serviceip,
-				serviceport
+				serviceport,
+				req.body.url
 			);
 			return res.json({ result: serviceKey });
 		}
